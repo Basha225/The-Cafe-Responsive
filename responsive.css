@@ -29,3 +29,26 @@
     }
 
 }
+
+
+/* TAB Responsive  */
+
+@media (min-width : 601px) and (max-width : 1024px){
+    .sub-container{
+        font-size: 75px;
+        line-height: 85px;
+    }
+    .container{
+        min-height: 65%;
+    }
+    .span-container{
+        padding: 4rem;
+    }
+    .main-sub-container>p,.main-sub-container-2,.main-image-container{
+        width: 85%;
+        text-align: left;
+    }
+    .footer{
+        padding: 3rem;
+    }
+}
